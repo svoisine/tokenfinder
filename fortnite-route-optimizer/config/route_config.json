@@ -1,0 +1,87 @@
+{
+  "_comment": "Placeholders except where marked. Replace spawn_prob values with in-game counts.",
+  "max_uphill_slope": 0.35,
+  "elevation_smooth_cells": 0.0,
+  "vehicle_speed_mps": 17.0,
+  "water_speed_factor": 0.25,
+  "break_seconds": 1.0,
+  "ground_floor_tolerance_cm": 450,
+  "ground_search_radius_cm": 3000,
+  "dedupe_radius_cm": 100,
+  "water_level_cm": 300,
+  "grid_cells": 256,
+  "classes": {
+    "AlwaysSpawn_NormalChest_C": {
+      "spawn_prob": 1.0,
+      "car": true
+    },
+    "AlwaysSpawn_RareChest_C": {
+      "spawn_prob": 1.0,
+      "car": true
+    },
+    "Tiered_Chest_Athena_C": {
+      "spawn_prob": 0.5,
+      "car": true
+    },
+    "Tiered_Chest_5_Child_C": {
+      "spawn_prob": 0.5,
+      "car": true
+    },
+    "B_Athena_BuriedChest_Sand_Spawner_C": {
+      "spawn_prob": 0.5,
+      "car": false
+    },
+    "B_Athena_BuriedChest_Dirt_Spawner_C": {
+      "spawn_prob": 0.5,
+      "car": false
+    },
+    "BGA_LootCannon_StandardChest_Pirate_C": {
+      "spawn_prob": 1.0,
+      "car": false
+    }
+  },
+  "treasure_odds_per_chest": {
+    "Pirate Shop Access": 7.272727272727272e-06,
+    "Weekly Gold Outfit": 6.4e-07,
+    "Weekly Vehicle and Decal": 0.00012799180852425445,
+    "Weekly Pickaxe or Back Bling": 0.0017605633802816902
+  },
+  "treasure_hour_multiplier": {
+    "Pirate Shop Access": 1.5
+  },
+  "minimap_calibration": {
+    "cm_per_px": 146.0,
+    "origin_px": 968.0,
+    "origin_py": 1014.0,
+    "ref_size": 2048
+  },
+  "opening": {
+    "_comment": "User's known 15 s opener, as world X,Y (cm). Trailer x2 -> shack -> shack -> shrine chest.",
+    "start": [
+      -19300,
+      -35100
+    ],
+    "stops": [
+      [
+        -19671,
+        -35405
+      ],
+      [
+        -18878,
+        -34736
+      ],
+      [
+        -9918,
+        -31227
+      ],
+      [
+        -7814,
+        -27538
+      ],
+      [
+        -9644,
+        -25428
+      ]
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+order,class,x,y,z,spawn_prob,arrive_s,px,py
+0,START,-19300,-35100,0,0,0.0,836,774
+1,AlwaysSpawn_NormalChest_C,-19671,-35405,1191,1.0,1.3,833,772
+2,AlwaysSpawn_NormalChest_C,-18878,-34736,1247,1.0,3.0,839,776
+3,AlwaysSpawn_NormalChest_C,-9918,-31227,1981,1.0,1000004.0,900,800
+4,AlwaysSpawn_NormalChest_C,-7814,-27538,2137,1.0,1000007.6,914,825
+5,AlwaysSpawn_NormalChest_C,-9644,-25428,2085,1.0,1000010.3,902,840
